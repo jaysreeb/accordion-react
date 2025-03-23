@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Accordion from "./Accordion";
 
 function App() {
+  const accordionData = [
+    { title: "What is React?", content: "React is a JavaScript library for building user interfaces." },
+    { title: "Why use React?", content: "React makes it easy to build interactive UIs with reusable components." },
+    { title: "How does React work?", content: "React creates a virtual DOM and updates only the changed parts efficiently." },
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>React Accordion</h2>
+      <Accordion items={accordionData} />
     </div>
   );
 }
