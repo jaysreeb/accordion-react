@@ -29,7 +29,7 @@ react-accordion/
 ## 🛠️ Installation and Setup
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/react-accordion.git
+   git clone https://github.com/jaysreeb/react-accordion.git
    cd react-accordion
    ```
 2. **Install dependencies:**
